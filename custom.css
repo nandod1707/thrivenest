@@ -1,0 +1,23 @@
+.table-container {
+  overflow-x:auto;
+  max-width:100%;
+  border-radius:6px;
+}
+
+.table-container table {
+  width:100%;
+  border-collapse:collapse;
+  min-width:480px;
+  font-family:inherit;
+}
+
+.table-container table thead {
+  background:#f9f9f9;
+}
+
+.table-container table thead th {
+  text-align:left;
+  padding:12px 14px;
+  border-bottom:1px solid #e5e5e5;
+  font-weight:700;
+}
